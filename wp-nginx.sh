@@ -352,6 +352,18 @@ APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Download-Upgradeable-Packages "1";
 APT::Periodic::AutocleanInterval "7";
 APT::Periodic::Unattended-Upgrade "1";
+
+
+echo "Root Password is $MYSQL_ROOT_PASSWORD 
+Wordpress Username is user$db
+Wordpress Database Name is db_$db
+Wordpress Password is  $WP_PASSWORD" > ~/passwords_$newdomain.txt
+
+echo Root Password is $MYSQL_ROOT_PASSWORD 
+echo Wordpress Username is user$db
+echo Wordpress Database Name is db_$db
+echo Wordpress Password is  $WP_PASSWORD
+
 EOF
 
 
